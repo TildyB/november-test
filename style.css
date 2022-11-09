@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#input{
+    border: 1px solid blue;
+    height: 2rem;
+    margin: 2rem;
+}
+#users{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    flex-wrap: wrap;
+}
+.userDiv{
+    border: 1px solid black;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+.userImage{
+    width: 5rem;
+}
+.userButton{
+    padding: 0.5rem;
+}
